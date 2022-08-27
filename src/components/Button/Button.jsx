@@ -25,13 +25,13 @@ function Button(props) {
             id={props.id}
             onClick={props.onClick}
             disabled={props.disabled}>
-            {props.title}
+            {props.label}
         </button>
     )
 }
 
 Button.propTypes = {
-    title: PropTypes.string.isRequired,
+    label: PropTypes.string.isRequired,
     disabled: PropTypes.bool,
     type: PropTypes.string,
     className: PropTypes.string,
