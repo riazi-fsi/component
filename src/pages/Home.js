@@ -31,6 +31,14 @@ export default function Home() {
                 }}
 
             />
+               <Button
+                label='Countdown component'
+                type='confirm'
+                onClick={() => {
+                    navigate(`/countdown-page`)
+                }}
+
+            />
             <Button
                 label='Chechbox component'
                 type='confirm'
