@@ -18,8 +18,8 @@ function Button(props) {
     }, [props.type]);
     return (
         <button
-            className={props.disabled ? 'inline-block px-6 py-2.5 m-2 font-medium text-xs text-white  leading-tight uppercase bg-gray-300 rounded focus:outline-none' :
-                'inline-block px-6 py-2.5 m-2 text-white font-medium text-xs leading-tight uppercase focus:shadow-lg focus:outline-none rounded focus:ring-0 active:shadow-lg transition duration-150 ease-in-out  shadow-md' +
+            className={props.disabled ? 'inline-block px-6 py-2.5 m-2 font-medium text-sm text-white  leading-tight bg-gray-300 rounded focus:outline-none' :
+                'inline-block px-6 py-2.5 m-2 text-white font-medium text-sm leading-tight  focus:shadow-lg focus:outline-none rounded focus:ring-0 active:shadow-lg transition duration-150 ease-in-out  shadow-md' +
                 renderContent() + [props.className].join('')}
             onKeyPress={props.onKeyPress}
             id={props.id}
