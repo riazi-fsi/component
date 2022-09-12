@@ -3,7 +3,8 @@
 It is collection of component from React, Tailwind , Storybook , React Hook
 
 ## Version 
--v0.1.2
+### [0.1.2]
+#### Changed
 add Toast component
 
 ### `npm start`
