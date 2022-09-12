@@ -6,6 +6,7 @@ import CountDownPage from './pages/CountDownPage'
 import Home from './pages/Home'
 import TablePage from './pages/TablePage'
 import TextFieldPage from './pages/TextFieldPage'
+import ToastPage from './pages/ToastPage'
 function App() {
   return (
     <div>
@@ -17,6 +18,7 @@ function App() {
           <Route path='/textFeild-page' element={<TextFieldPage/>}/>
           <Route path='/checkbox-page' element={<CheckboxPage/>}/>
           <Route path='/countdown-page' element={<CountDownPage/>}/>
+          <Route path='/toast-page' element={<ToastPage/>}/>
 
 
         </Routes>
