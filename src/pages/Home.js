@@ -47,7 +47,14 @@ export default function Home() {
                 }}
 
             />
+ <Button
+                label='Toast component'
+                type='confirm'
+                onClick={() => {
+                    navigate(`/toast-page`)
+                }}
 
+            />
         </div>
     )
 }

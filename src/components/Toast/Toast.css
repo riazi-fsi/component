@@ -1,0 +1,27 @@
+.Toast {
+
+    -webkit-transform: translateY(0%) translateY(-650%);
+    transform: translateY(0%) translateY(-650%);
+    transition: -webkit-transform .45s ease;
+    -webkit-transition: -webkit-transform .45s ease;
+    transition: transform .45s ease;
+    -webkit-transition: transform .45s ease;
+}
+
+.visible .Toast {
+    -webkit-transform: translateX(-45%) translateX(53%);
+    transform: translateX(-45%) translateX(53%);
+
+}
+
+
+@media (min-width:575.98px) and (max-width: 991.98px) {
+    .visible .Toast {
+        transform: translateX(-45%) translateX(80%);
+    }
+}
+@media (max-width: 576px) {
+    .visible .Toast {
+        transform: translateX(-45%) translateX(95%);
+    }
+}
