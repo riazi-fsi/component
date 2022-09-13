@@ -14,12 +14,12 @@ export const normal = Template.bind({});
 normal.args = {
     title: "title",
     message: 'message',
-    type: 'success',
+    type: 'info',
     visible: true
 
 }
-export const danger = Template.bind({});
-danger.args = {
+export const type = Template.bind({});
+type.args = {
     title: "title",
     message: 'message',
     type: 'danger',
