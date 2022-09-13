@@ -55,6 +55,14 @@ export default function Home() {
                 }}
 
             />
+             <Button
+                label='Dropdown component'
+                type='confirm'
+                onClick={() => {
+                    navigate(`/dropdown-page`)
+                }}
+
+            />
         </div>
     )
 }

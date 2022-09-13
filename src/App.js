@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route,Routes } from 'react-router-dom'
 import ButtonPage from './pages/ButtonPage'
 import CheckboxPage from './pages/CheckboxPage'
 import CountDownPage from './pages/CountDownPage'
+import DropdownPage from './pages/DropdownPage'
 import Home from './pages/Home'
 import TablePage from './pages/TablePage'
 import TextFieldPage from './pages/TextFieldPage'
@@ -19,6 +20,7 @@ function App() {
           <Route path='/checkbox-page' element={<CheckboxPage/>}/>
           <Route path='/countdown-page' element={<CountDownPage/>}/>
           <Route path='/toast-page' element={<ToastPage/>}/>
+          <Route path='/dropdown-page' element={<DropdownPage/>}/>
 
 
         </Routes>
