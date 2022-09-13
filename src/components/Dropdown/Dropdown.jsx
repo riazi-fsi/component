@@ -44,7 +44,7 @@ class Dropdown extends React.Component {
                     ref={this.refToggleContainer}
                     className="relative" >
                     <button className="dropdown-toggle" onClick={this.onClickHandler}>
-                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-down" class="w-2 mr-2 " role="img"
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-down" className="w-2 mr-2 " role="img"
                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"
                         >
                             <path
